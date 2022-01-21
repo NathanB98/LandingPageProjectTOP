@@ -43,6 +43,8 @@ body {
 .headerContainer {
     margin-top: 32px;
     padding-bottom: 64px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .containerLeft {
@@ -50,7 +52,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     width: 500px;
-    height: 200px;
+    height: 250px;
     padding: auto;
 }
 
@@ -168,11 +170,12 @@ button {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 64px 128px;
-    padding: 32px 64px;
-    gap: 256px;
+    margin: 64px 192px;
+    padding: 32px;
     background-color: #3882f6;
     border-radius: 10px;
+    flex-wrap: wrap;
+    flex: 1, 1, auto;
 }
 
 .actionContainer .signUp {
