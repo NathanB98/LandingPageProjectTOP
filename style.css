@@ -2,7 +2,6 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    padding: 0;
     margin: 0;
 }
 
@@ -80,4 +79,48 @@ button {
     width: 500px;
     height: 200px;
     background-color: #E5E7EB;
+}
+
+.secondBox{
+    text-align: center;
+}
+
+.infoContainer {
+    padding: 32px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.info img {
+    border: medium solid #3882f6;
+    border-radius: 15px;  
+}
+
+.imgText,
+.info img {
+    width: 150px;
+    height: 150px;
+}
+
+.imgText {
+    font-size: 14px;
+    color: #1f2937;
+    padding-top: 8px;
 }
