@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -6,7 +6,7 @@ body {
 }
 
 .firstBox,
-.fourthBox {
+.fifthBox {
     background-color: #1f2937;
 }
 
@@ -19,9 +19,20 @@ body {
     align-items: center;
 }
 
-.headerBar {
+.headerBar,
+.actionTitle {
     font-size: 24px;
+}
+
+.headerBar,
+.actionTitle,
+.actionContent,
+.footer {
     color: #f9faf8;
+}
+
+.actionTitle {
+    font-weight: bold;
 }
 
 .links {
@@ -59,6 +70,9 @@ a {
 
 .signUp {
     width: fit-content;
+}
+
+.containerLeft .signUp {
     margin-top: 16px;
 }
 
@@ -123,4 +137,52 @@ button {
     font-size: 14px;
     color: #1f2937;
     padding-top: 8px;
+}
+
+.thirdBox {
+    background-color: #e5e7eb;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 96px 128px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+    text-align: center;
+}
+
+.source {
+    font-size: 22px;
+    font-weight: bolder;
+    text-align: end;
+    margin-top: 16px;
+}
+
+.actionContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 64px 128px;
+    padding: 32px 64px;
+    gap: 256px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.actionContainer .signUp {
+    border-style: solid;
+    border-color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0;
 }
