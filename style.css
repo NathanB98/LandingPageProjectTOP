@@ -15,9 +15,6 @@ body {
 .headerContainer {
     margin-left: 128px;
     margin-right: 128px;
-}
-
-.logoContainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -34,9 +31,6 @@ body {
 }
 
 .headerContainer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin-top: 32px;
     padding-bottom: 64px;
 }
@@ -45,7 +39,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    /*flex-wrap: wrap;*/
     width: 500px;
     height: 200px;
     padding: auto;
